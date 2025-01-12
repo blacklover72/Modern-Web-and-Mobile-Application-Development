@@ -1,0 +1,100 @@
+*{
+    /*rest All default css*/
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6em;
+    color: black;
+    background-color: aliceblue;
+}
+
+.navbar-container{
+display: flex;
+align-items: center;
+position: sticky;
+top: 0px;
+margin: auto;
+}
+.navlogo{
+ position: relative;
+ right: 0px;
+}
+.navbar-container ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+a{
+text-decoration: none;
+}
+.contain h2{
+    text-align: center;
+    padding: 16px;
+}
+.containr{
+   background-color:rgb(58, 53, 53);
+   color: wheat;
+    display: flex;
+ margin: 10px;
+ height: 400px;
+ border-radius: 5px;
+}
+.about{
+    background-color:rgb(58, 53, 53);
+   color: wheat;
+    display: flex;
+ margin: 10px;
+ height: 400px;
+ border-radius: 5px;
+}
+.contain{
+    position: relative;
+    left: 13px;
+    top: 90px;
+    border: 3px solid rgb(230, 225, 225);
+    border-radius: 9px;
+    height: 200px;
+    width: 600px;
+    padding: 3px 9px;
+    
+}
+.images{
+    position: relative;
+    background-color: black;
+    border-radius: 9px;
+    left: 100px;
+    top: 90px;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+}
+img{
+    border-radius: 20px;
+}
+img:hover{
+    transform:scale(1.2);
+    transition-duration: 0.9s;
+}
+li:hover{
+    transform:scale(1.2);
+    transition-duration: 0.9s;
+}
+img:hover{
+    transform:scale(1.2);
+    transition-duration: 0.9s;
+}
+button:hover{
+    transform:scale(1.2);
+    transition-duration: 0.9s;
+}
+.contain button{
+    display: inline-block;
+    position: absolute;
+    border-radius: 5px;
+    right: 50px;
+    bottom: 30px;
+}
