@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  header{
+    display: block;
+    position: sticky;
+    font-size: 25px;
+    top: 0px;
+    z-index: 1;
+    background-color: papayawhip;
+  }
+  .navbar{
+    display: flex;
+    position: relative;
+    height: 50px;
+  }
+  .navbar-logo{
+    display: flex;
+    position: relative;
+    border: 5px solid sandybrown;
+    border-radius: 50px;
+    top: 0px;
+    left: 0px;
+  }
+  .navbar-items{
+    display: flex;
+    position: relative;
+    margin: auto;
+    
+  }
+  a{
+    text-decoration: none;
+  }
+  .navbar-items ul{
+    display: flex ;
+    list-style: none;
+    gap: 30px;
+   
+  }
+  .navbar-items ul a{
+    color: black;
+     }
+  .content{
+    font-size: 19px;
+    border: 2px solid red;
+    display: flex;
+    position: relative;
+    background-color: black;
+    height:500px;
+    border-radius: 10px;
+    
+  }
+  .image{ 
+    
+    
+  }
+  .image img{
+    display: flex;
+    border-radius: 150px;
+    position: relative;
+    left: 950px;
+    top: 100px;  box-shadow: 5px 5px 90px white;
+  }
+  .box2{
+  
+    color: white;
+    border: 5px solid white;
+    border-style: double;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    height: 300px;
+    width: 700px;
+    right: 150px;
+    top: 100px;
+      box-shadow: 10px 10px 140px white;
+  }
+  
+  .box2 button{
+    display: inline-block;
+    position: relative;
+    border-radius: 50px;
+    
+    top: 80px;
+    margin: auto;
+    height: 40px;
+    width: 550px;
+    text-align: center;
+    background-color: sandybrown;
+  }
+  input{
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+    border: 0px;
+    text-align: center;
+    right: 10px;
+    bottom: 5px;
+    width: 200px;
+    height: 30px;
+  }
+   button{
+   border: 0px;
+    position: relative;
+    border-radius: 50px;
+    margin: auto;
+    height: 20px;
+    width: 100px;
+    text-align: center;
+    background-color: sandybrown;
+  }
+  button:hover{
+    border: 0px;
+    transform: scale(1.05);
+    transition-duration: .5s;
+    box-shadow: 5px 3px 30px white;
+    
+    
+  }
+  .about h1{
+    text-align: center;
+  }
+  .about{
+    display: inline-block;
+    position: relative;
+    border: 2px solid red;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    text-align: left;
+  }
+  .about button{
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    right:#42445A;
+  }
+  
+  footer{
+    background-color: blanchedalmond;
+    display: flex;
+    height: 190px;
+  }
+  .side{
+    display: inline-block;
+    position: relative;
+  }
+  .center{
+    margin: auto;
+    text-align: center;
+  }
+  .last{
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+    left: 50px;
+  }
+    
+  .top{
+    display: inline;
+    position:fixed;
+    right: 0px;
+    bottom: 10px;
+  }
+  .top button{
+    background-color: sandybrown;
+    border: 0px;
+    display: block;
+    position: flex;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    bottom: 200px;
+    right: 30px;
+    box-shadow: 5px 5px 30px white;
+   
+  }
+  .fa {
+    display: flex;
+    position: relative;
+    top: 2px;
+    right: 20px;
+    padding: 5px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-arrow-up{
+  display: inline-block;
+  right: 10px;
+  top: -5px;
+}
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
