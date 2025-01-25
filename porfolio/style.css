@@ -202,3 +202,13 @@ footer{
     background: #3B5998;
     color: white;
   }
+
+
+  .about-contant{
+    width: 100vw;
+    height: 50vh;
+    margin-top:20px ;
+    background-color: black;
+    background-image: url(../images/skills.avif);
+    
+  }
